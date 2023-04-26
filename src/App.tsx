@@ -21,37 +21,42 @@ const surveyJson = {
     }, {
         elements: [{
             type: "radiogroup",
-            name: "civilwar",
-            title: "When was the American Civil War?",
+            name: "startdate",
+            title: "На какой вечеринке мы познакомились?",
             choices: [
-                "1796-1803", "1810-1814", "1861-1865", "1939-1945"
+                "Clan Capkan",
+                "Student Party",
+                "Казантип",
+                "Roots"
             ],
-            correctAnswer: "1861-1865"
+            correctAnswer: "Roots"
         }]
     }, {
         elements: [{
             type: "radiogroup",
-            name: "libertyordeath",
-            title: "Whose quote is this: \"Give me liberty, or give me death\"?",
+            name: "caramel",
+            title: "Что на первых свиданиях я приготовил для тебя, чтобы удивить?",
             choicesOrder: "random",
             choices: [
-                "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
+                "Соленая карамель",
+                "Паста",
+                "Эчпочмаки"
             ],
-            correctAnswer: "Patrick Henry"
+            correctAnswer: "Соленая карамель"
         }]
     }, {
         elements: [{
             type: "radiogroup",
-            name: "magnacarta",
-            title: "What is Magna Carta?",
+            name: "firstphotoplace",
+            title: "В каком месте мы сделали первое совместное фото?",
             choicesOrder: "random",
             choices: [
-                "The foundation of the British parliamentary system",
-                "The Great Seal of the monarchs of England",
-                "The French Declaration of the Rights of Man",
-                "The charter signed by the Pilgrims on the Mayflower"
+                "У тебя",
+                "В универе",
+                "В Рокко",
+                "У меня"
             ],
-            correctAnswer: "The foundation of the British parliamentary system"
+            correctAnswer: "В универе"
         }]
     }]
 };
