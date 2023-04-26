@@ -62,6 +62,11 @@ const surveyJson = {
 };
 
 const survey = new Model(surveyJson);
+const css = {
+    container: "page-body",
+    bodyContainer: "page-body__container"
+};
+survey.css = css;
 
 function App() {
     const surveyComplete = useCallback((sender: unknown) => {
