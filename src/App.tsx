@@ -8,6 +8,7 @@ const surveyJson = {
     title: "Лерик и Тимик. История любви",
     firstPageIsStarted: true,
     startSurveyText: "Начать",
+    checkErrorsMode: "onValueChanged",
     pages: [{
         elements: [{
             type: "html",
@@ -29,7 +30,9 @@ const surveyJson = {
                 "Казантип",
                 "Roots"
             ],
-            correctAnswer: "Roots"
+            correctAnswer: "Roots",
+            isRequired: true,
+            requiredErrorText: "Нужно выбрать вариант ответа"
         }]
     }, {
         elements: [{
@@ -42,7 +45,9 @@ const surveyJson = {
                 "Паста",
                 "Эчпочмаки"
             ],
-            correctAnswer: "Соленая карамель"
+            correctAnswer: "Соленая карамель",
+            isRequired: true,
+            requiredErrorText: "Нужно выбрать вариант ответа"
         }]
     }, {
         elements: [{
@@ -56,7 +61,9 @@ const surveyJson = {
                 "В Рокко",
                 "У меня"
             ],
-            correctAnswer: "В универе"
+            correctAnswer: "В универе",
+            isRequired: true,
+            requiredErrorText: "Нужно выбрать вариант ответа"
         }]
     }]
 };
