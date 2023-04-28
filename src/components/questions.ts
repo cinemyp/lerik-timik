@@ -107,4 +107,16 @@ export const surveyJson = {
       requiredErrorText: 'Нужно выбрать вариант ответа',
     }],
   }],
+  completedHtmlOnCondition: [{
+    expression: '{correctAnswers} < 3',
+    html: '<h4>Мухлюем? Ладно, все хорошо, можешь попробовать еще раз, но я все равно тебя люблю!</h4>',
+  }, {
+    expression: '{correctAnswers} >= 3 && {correctAnswers} != {questionCount}',
+    html: '<h4>Уже хорошо! Осталось немного, поднапряжем попку, туц туц туц</h4>',
+  }, {
+    expression: '{correctAnswers} == {questionCount}',
+    html: '<h4>Мои поздравления! Ты на все вопросы ответила верно! Принцесса королева!</h4><br>' +
+      '<h4>Приглашаю сегодня в 20:30 в стейк-хаус "Прайм" на прекрасный вечер вдвоем</h4><br>' +
+      '<h4>Жду, твой Тимик!</h4>',
+  }],
 }
