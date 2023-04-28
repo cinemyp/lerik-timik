@@ -65,6 +65,53 @@ const surveyJson = {
             isRequired: true,
             requiredErrorText: "Нужно выбрать вариант ответа"
         }]
+    }, {
+        elements: [{
+            type: "radiogroup",
+            name: "playtosleep",
+            title: "На каком спектакле я чуть не уснул?",
+            choicesOrder: "random",
+            choices: [
+                "Гроза",
+                "Женитьба Фигаро",
+                "Покровские ворота"
+            ],
+            correctAnswer: "Женитьба Фигаро",
+            isRequired: true,
+            requiredErrorText: "Нужно выбрать вариант ответа"
+        }]
+    }, {
+        elements: [{
+            type: "radiogroup",
+            name: "petsnames",
+            title: "Как мы хотим назвать наших будущих питомцев?",
+            choicesOrder: "random",
+            choices: [
+                "Мастер и Маргарита",
+                "Хрюкич и Жопич",
+                "Валентин и Микаэла",
+                "Биба и Боба"
+            ],
+            correctAnswer: "Биба и Боба",
+            isRequired: true,
+            requiredErrorText: "Нужно выбрать вариант ответа"
+        }]
+    }, {
+        elements: [{
+            type: "radiogroup",
+            name: "pechtimes",
+            title: "Сколько раз мы были в ресторане Печь?",
+            choicesOrder: "random",
+            choices: [
+                "5",
+                "15",
+                "10",
+                "13"
+            ],
+            correctAnswer: "10",
+            isRequired: true,
+            requiredErrorText: "Нужно выбрать вариант ответа"
+        }]
     }]
 };
 
