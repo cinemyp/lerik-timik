@@ -214,6 +214,8 @@
 
 /*! ../base */
 
+/*! ../common-theme-settings */
+
 /*! ../conditionProcessValue */
 
 /*! ../defaultCss/cssmodern */
@@ -496,6 +498,8 @@
 
 /*! ./core-wo-model */
 
+/*! ./cssbootstrapmaterial */
+
 /*! ./custom-widget */
 
 /*! ./defaultCss/defaultV2Css */
@@ -651,6 +655,8 @@
 /*! ./tagbox-item */
 
 /*! ./textPreProcessor */
+
+/*! ./theme-settings */
 
 /*! ./title-actions */
 
@@ -1022,6 +1028,10 @@
 
 /*! exports provided: Version, checkLibraryVersion, settings, Helpers, AnswerCountValidator, EmailValidator, NumericValidator, RegexValidator, SurveyValidator, TextValidator, ValidatorResult, ExpressionValidator, ValidatorRunner, ItemValue, Base, Event, EventBase, ArrayChanges, ComputedUpdater, SurveyError, SurveyElementCore, SurveyElement, DragTypeOverMeEnum, CalculatedValue, CustomError, AnswerRequiredError, OneAnswerRequiredError, RequreNumericError, ExceedSizeError, LocalizableString, LocalizableStrings, HtmlConditionItem, UrlConditionItem, ChoicesRestful, ChoicesRestfull, FunctionFactory, registerFunction, ConditionRunner, ExpressionRunner, ExpressionExecutor, Operand, Const, BinaryOperand, Variable, FunctionOperand, ArrayOperand, UnaryOperand, ConditionsParser, ProcessValue, JsonError, JsonIncorrectTypeError, JsonMetadata, JsonMetadataClass, JsonMissingTypeError, JsonMissingTypeErrorBase, JsonObject, JsonObjectProperty, JsonRequiredPropertyError, JsonUnknownPropertyError, Serializer, property, propertyArray, MatrixDropdownCell, MatrixDropdownRowModelBase, QuestionMatrixDropdownModelBase, MatrixDropdownColumn, matrixDropdownColumnTypes, QuestionMatrixDropdownRenderedCell, QuestionMatrixDropdownRenderedRow, QuestionMatrixDropdownRenderedTable, MatrixDropdownRowModel, QuestionMatrixDropdownModel, MatrixDynamicRowModel, QuestionMatrixDynamicModel, MatrixRowModel, MatrixCells, QuestionMatrixModel, QuestionMatrixBaseModel, MultipleTextItemModel, QuestionMultipleTextModel, PanelModel, PanelModelBase, QuestionRowModel, FlowPanelModel, PageModel, DefaultTitleModel, Question, QuestionNonValue, QuestionEmptyModel, QuestionCheckboxBase, QuestionSelectBase, QuestionCheckboxModel, QuestionTagboxModel, QuestionRankingModel, QuestionCommentModel, QuestionDropdownModel, QuestionFactory, ElementFactory, QuestionFileModel, QuestionHtmlModel, QuestionRadiogroupModel, QuestionRatingModel, RenderedRatingItem, QuestionExpressionModel, QuestionTextBase, CharacterCounter, QuestionTextModel, QuestionBooleanModel, QuestionImagePickerModel, ImageItemValue, QuestionImageModel, QuestionSignaturePadModel, QuestionPanelDynamicModel, QuestionPanelDynamicItem, SurveyTimer, SurveyTimerModel, tryNavigateToPage, createTOCListModel, getTocRootCss, SurveyProgressModel, SurveyProgressButtonsModel, SurveyModel, SurveyTrigger, SurveyTriggerComplete, SurveyTriggerSetValue, SurveyTriggerVisible, SurveyTriggerCopyValue, SurveyTriggerRunExpression, Trigger, PopupSurveyModel, SurveyWindowModel, TextPreProcessor, Notifier, dxSurveyService, englishStrings, surveyLocalization, surveyStrings, QuestionCustomWidget, CustomWidgetCollection, QuestionCustomModel, QuestionCompositeModel, ComponentQuestionJSON, ComponentCollection, StylesManager, ListModel, MultiSelectListModel, PopupModel, createDialogOptions, PopupBaseViewModel, PopupDropdownViewModel, PopupModalViewModel, createPopupViewModel, createPopupModalViewModel, DropdownListModel, DropdownMultiSelectListModel, QuestionButtonGroupModel, ButtonGroupItemModel, ButtonGroupItemValue, IsMobile, IsTouch, _setIsTouch, confirmAction, detectIEOrEdge, doKey2ClickUp, doKey2ClickDown, doKey2ClickBlur, loadFileFromBase64, increaseHeightByContent, createSvg, sanitizeEditableContent, CssClassBuilder, surveyCss, defaultV2Css, defaultV2ThemeName, DragDropSurveyElements, DragDropChoices, defaultStandardCss, modernCss, SvgIconRegistry, SvgRegistry, SvgBundleViewModel, RendererFactory, ResponsivityManager, VerticalResponsivityManager, unwrap, getOriginalEvent, createDropdownActionModel, createDropdownActionModelAdvanced, BaseAction, Action, ActionDropdownViewModel, AdaptiveActionContainer, defaultActionBarCss, ActionContainer, TooltipManager, DragOrClickHelper, Model */
 
+/*! exports provided: bootstrapMaterialThemeName, bootstrapMaterialThemeColors, bootstrapMaterialThemeCssRules */
+
+/*! exports provided: bootstrapMaterialThemeName, bootstrapMaterialThemeColors, bootstrapMaterialThemeCssRules, defaultCss */
+
 /*! exports provided: createDropdownActionModel, createDropdownActionModelAdvanced, BaseAction, Action, ActionDropdownViewModel */
 
 /*! exports provided: createPopupModalViewModel, createPopupViewModel */
@@ -1029,6 +1039,8 @@
 /*! exports provided: default */
 
 /*! exports provided: defaultActionBarCss, ActionContainer */
+
+/*! exports provided: defaultCss */
 
 /*! exports provided: defaultListCss, ListModel */
 
@@ -1045,6 +1057,8 @@
 /*! exports provided: modernThemeColors, defaultThemeColors, orangeThemeColors, darkblueThemeColors, darkroseThemeColors, stoneThemeColors, winterThemeColors, winterstoneThemeColors, StylesManager */
 
 /*! exports provided: property, propertyArray, JsonObjectProperty, CustomPropertiesCollection, JsonMetadataClass, JsonMetadata, JsonError, JsonUnknownPropertyError, JsonMissingTypeErrorBase, JsonMissingTypeError, JsonIncorrectTypeError, JsonRequiredPropertyError, JsonObject, Serializer */
+
+/*! exports provided: setMediaStyles, setStyles */
 
 /*! exports provided: settings */
 
@@ -1951,6 +1965,10 @@
         \****************************************************/
 
 /*!*****************************************************!*\
+        !*** ./src/plugins/themes/common-theme-settings.ts ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
         !*** ./src/react/components/rating/rating-item.tsx ***!
         \*****************************************************/
 
@@ -1965,6 +1983,10 @@
 /*!******************************************************!*\
         !*** ./src/react/components/title/title-element.tsx ***!
         \******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./src/plugins/themes/bootstrapmaterial/index.ts ***!
+        \*******************************************************/
 
 /*!*******************************************************!*\
         !*** ./src/react/components/components-container.tsx ***!
@@ -2002,6 +2024,10 @@
         !*** ./src/react/components/survey-header/survey-header.tsx ***!
         \**************************************************************/
 
+/*!****************************************************************!*\
+        !*** ./src/plugins/themes/bootstrapmaterial/theme-settings.ts ***!
+        \****************************************************************/
+
 /*!******************************************************************!*\
         !*** ./src/react/components/action-bar/action-bar-separator.tsx ***!
         \******************************************************************/
@@ -2009,6 +2035,10 @@
 /*!*******************************************************************!*\
         !*** ./src/react/components/survey-actions/survey-nav-button.tsx ***!
         \*******************************************************************/
+
+/*!**********************************************************************!*\
+        !*** ./src/plugins/themes/bootstrapmaterial/cssbootstrapmaterial.ts ***!
+        \**********************************************************************/
 
 /*!**********************************************************************!*\
         !*** ./src/react/components/action-bar/action-bar-item-dropdown.tsx ***!
