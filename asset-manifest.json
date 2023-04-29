@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/lerik-timik/static/css/main.c5c84cc4.css",
-    "main.js": "/lerik-timik/static/js/main.6795f97a.js",
-    "index.html": "/lerik-timik/index.html",
-    "main.c5c84cc4.css.map": "/lerik-timik/static/css/main.c5c84cc4.css.map",
-    "main.6795f97a.js.map": "/lerik-timik/static/js/main.6795f97a.js.map"
+    "main.css": "/static/css/main.c5c84cc4.css",
+    "main.js": "/static/js/main.6795f97a.js",
+    "index.html": "/index.html",
+    "main.c5c84cc4.css.map": "/static/css/main.c5c84cc4.css.map",
+    "main.6795f97a.js.map": "/static/js/main.6795f97a.js.map"
   },
   "entrypoints": [
     "static/css/main.c5c84cc4.css",
