@@ -19,3 +19,57 @@ body {
 .page-body__container {
     margin: 100px;
 }
+
+.page-image__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-body__container {
+        margin: 5px;
+    }
+}
+
+.page-image {
+    width: 50%;
+    z-index: 3;
+    position: relative;
+    border-radius: 30px;
+}
+
+.page-image__container {
+    margin-top: 50px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: orangered;
+}
+
+.page-image__container:before,
+.page-image__container:after{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: orangered;
+}
+.page-image__container:before{
+    bottom: 0px;
+    left: -100px;
+}
+.page-image__container:after{
+    top: -100px;
+    right: 0px;
+}

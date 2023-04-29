@@ -3,6 +3,8 @@ export const surveyJson = {
   firstPageIsStarted: true,
   startSurveyText: 'Начать',
   checkErrorsMode: 'onValueChanged',
+  showProgressBar: 'top',
+  showPrevButton: false,
   pages: [{
     elements: [{
       type: 'html',
@@ -118,6 +120,9 @@ export const surveyJson = {
     html: '<h4>Мои поздравления! Ты на все вопросы ответила верно! Принцесса королева!</h4><br>' +
       '<h4>Приглашаю сегодня в 20:00 в стейк-хаус "Прайм" на прекрасный вечер вдвоем</h4><br>' +
       '<h4>Жду, твой Тимик!</h4>' +
-      '<i>Заеду за тобой, так что будь готова в 19:30 :*</i>',
+      '<i>Заеду за тобой, так что будь готова в 19:30 :*</i>' +
+      '<div class="page-image__wrapper">' +
+      '<div class="page-image__container"></div><img class="page-image" src="lertim.jpg"><div style="width: 100%"></div>' +
+      '</div>',
   }],
 }
