@@ -1,0 +1,20 @@
+name: Build and Deploy App to GH Pages
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Build
+      run: npm install
+    - name: Deploy
+      run: |
+        git config --global user.name 'cinemyp'
+        git config --global user.email 'kiyamovtimur01@gmail.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        npm run deploy
